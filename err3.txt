@@ -1,0 +1,9 @@
+﻿C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\Controllers\WeatherForecastController.cs(22,24): error CS0246: The type or namespace name 'WeatherForecast' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+
+Build FAILED.
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.99
+
+Workload updates are available. Run `dotnet workload list` for more information.

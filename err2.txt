@@ -1,0 +1,18 @@
+﻿C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\Program.cs(3,1): error CS8802: Only one compilation unit can have top-level statements. [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs(4,12): error CS0579: Duplicate 'global::System.Runtime.Versioning.TargetFrameworkAttribute' attribute [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\obj\Debug\net9.0\ABCPharmacy.AssemblyInfo.cs(13,12): error CS0579: Duplicate 'System.Reflection.AssemblyCompanyAttribute' attribute [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\obj\Debug\net9.0\ABCPharmacy.AssemblyInfo.cs(14,12): error CS0579: Duplicate 'System.Reflection.AssemblyConfigurationAttribute' attribute [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\obj\Debug\net9.0\ABCPharmacy.AssemblyInfo.cs(15,12): error CS0579: Duplicate 'System.Reflection.AssemblyFileVersionAttribute' attribute [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\obj\Debug\net9.0\ABCPharmacy.AssemblyInfo.cs(16,12): error CS0579: Duplicate 'System.Reflection.AssemblyInformationalVersionAttribute' attribute [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\obj\Debug\net9.0\ABCPharmacy.AssemblyInfo.cs(17,12): error CS0579: Duplicate 'System.Reflection.AssemblyProductAttribute' attribute [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\obj\Debug\net9.0\ABCPharmacy.AssemblyInfo.cs(18,12): error CS0579: Duplicate 'System.Reflection.AssemblyTitleAttribute' attribute [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\obj\Debug\net9.0\ABCPharmacy.AssemblyInfo.cs(19,12): error CS0579: Duplicate 'System.Reflection.AssemblyVersionAttribute' attribute [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\obj\Debug\net9.0\ABCPharmacy.RazorAssemblyInfo.cs(13,12): error CS0579: Duplicate 'Microsoft.AspNetCore.Mvc.ApplicationParts.ProvideApplicationPartFactoryAttribute' attribute [C:\Users\pankaj.rathore\.gemini\antigravity\scratch\ABCPharmacy\ABCPharmacy.csproj]
+
+Build FAILED.
+    0 Warning(s)
+    10 Error(s)
+
+Time Elapsed 00:00:02.48
+
+Workload updates are available. Run `dotnet workload list` for more information.

@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "1",
+    "FullName": "Aspirin 500mg",
+    "Notes": "Pain reliever",
+    "ExpiryDate": "2026-12-12T00:00:00",
+    "Quantity": 999,
+    "Price": 5.99,
+    "Brand": "Bayer"
+  },
+  {
+    "Id": "2",
+    "FullName": "Amoxicillin 250mg",
+    "Notes": "Antibiotic",
+    "ExpiryDate": "2029-01-01T00:00:00",
+    "Quantity": 5,
+    "Price": 12.99,
+    "Brand": "PharmaCorp"
+  },
+  {
+    "Id": "3",
+    "FullName": "Ibuprofen 400mg",
+    "Notes": "Anti-inflammatory",
+    "ExpiryDate": "2028-12-31T00:00:00",
+    "Quantity": 100,
+    "Price": 8.50,
+    "Brand": "Advil"
+  },
+  {
+    "Id": "962ec540-76de-4b38-ae8a-68f26aa12744",
+    "FullName": "Test",
+    "Notes": "Test notes",
+    "ExpiryDate": "2024-07-12T00:00:00",
+    "Quantity": 67,
+    "Price": 233.97,
+    "Brand": "Test"
+  }
+]

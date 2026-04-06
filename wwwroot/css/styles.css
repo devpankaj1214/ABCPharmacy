@@ -1,0 +1,223 @@
+:root {
+    --bg-dark: #121212;
+    --bg-panel: #1e1e1e;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --accent: #6f57e9;
+    --accent-hover: #5a41d9;
+    --success: #2ea043;
+    --danger: #cf222e;
+    --danger-light: rgba(207, 34, 46, 0.2);
+    --warning: #dbab09;
+    --warning-light: rgba(219, 171, 9, 0.2);
+    --border: #30363d;
+    --shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    --glass: rgba(30, 30, 30, 0.7);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    line-height: 1.6;
+    background-image: radial-gradient(circle at top right, #241b4d 0%, var(--bg-dark) 40%);
+    min-height: 100vh;
+}
+
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.app-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.app-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #A8B1FF, #6f57e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.app-header p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.controls-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.search-bar {
+    display: flex;
+    gap: 0.5rem;
+}
+
+input[type="text"], input[type="date"], input[type="number"] {
+    background-color: var(--bg-dark);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s;
+    font-size: 1rem;
+    width: 100%;
+}
+
+input:focus {
+    border-color: var(--accent);
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+    font-size: 1rem;
+    color: white;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.primary-btn { background-color: var(--accent); }
+.secondary-btn { background-color: var(--border); color: var(--text-primary); }
+.success-btn { background-color: var(--success); }
+
+.grid-section {
+    background-color: var(--bg-panel);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    overflow-x: auto;
+    box-shadow: var(--shadow);
+}
+
+.medicine-grid {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.medicine-grid th {
+    background-color: rgba(0,0,0,0.2);
+    padding: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border);
+}
+
+.medicine-grid td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border);
+    transition: background-color 0.2s;
+}
+
+.medicine-grid tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-secondary);
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Specific Condition Classes */
+.table-row-danger {
+    background-color: var(--danger-light) !important;
+}
+
+.table-row-warning {
+    background-color: var(--warning-light) !important;
+}
+
+.action-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+}
+
+/* Modal Styling */
+.modal {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: var(--bg-panel);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    position: relative;
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem; right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
+.close-btn:hover { color: var(--text-primary); }
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.w-100 { width: 100%; }
+
+.highlight-text {
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
